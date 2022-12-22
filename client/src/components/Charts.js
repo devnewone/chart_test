@@ -85,8 +85,8 @@ const Charts = () => {
         options={datas.options}
         series={datas.series}
         type={'area'}
-        width={700}
-        height={500}
+        width={500}
+        height={400}
         />
     </div>
   )

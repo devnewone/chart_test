@@ -7,9 +7,11 @@ import './App.css';
 function App() {
   return (
     <>
-    {/* <Connector brokerUrl="wss://test.mosquitto.org:1884"> */}
+    {/* mqtt 커넥터는 인스턴스를 초기화할 루트 구성요소를 래핑한다 */}
+    {/* <Connector brokerUrl="wss://test.mosquitto.org:1884">
+      <Status />
+    </Connector> */}
       <Charts />
-    {/* </Connector> */}
     </>
   );
 }
